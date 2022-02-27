@@ -1,5 +1,6 @@
 Feature: Oracle Login test
 
+@login
 Scenario Outline: Invalid login with user
   Given User has opened Oracle Profile page
   When User inputs <email> as the email
@@ -10,5 +11,5 @@ Scenario Outline: Invalid login with user
   Examples:
       | email               | password            |
       | dhsgjsdh@gmail.com  | Password123         |
-      | dhsdg4dh@gmail.com  | Password123sdf      |
-      | d3refwdsf@gmail.com | Passworsgdsad12dsg3 |
+      # | dhsdg4dh@gmail.com  | Password123sdf      |
+      # | d3refwdsf@gmail.com | Passworsgdsad12dsg3 |

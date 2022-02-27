@@ -1,0 +1,164 @@
+{
+  "uid" : "cc560cea1a966463",
+  "name" : "Invalid login with user",
+  "fullName" : "Oracle Login test.Invalid login with user",
+  "historyId" : "5541e9c8bde4d9b087dd9b454c428cb7",
+  "time" : {
+    "start" : 1645965096872,
+    "stop" : 1645965113356,
+    "duration" : 16484
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//span[@class='error-show']/div[@class='cb41error']`) to have text",
+  "statusTrace" : "Error: Expect $(`//span[@class='error-show']/div[@class='cb41error']`) to have text\n                \n                Expected: \"Invalid username and/or password.gnnb\"\n                Received: \"Invalid username and/or password.\"\n                    at LoginTest.assertInvalidCredentialMsg (C:\\katja\\Uni\\4_Sem\\program_testesana\\prog_test\\test_code\\features\\testobjects\\/loginTest.js:14:70)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (C:\\katja\\Uni\\4_Sem\\program_testesana\\prog_test\\test_code\\features\\step-definitions\\/loginSteps.js:13:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect $(`//span[@class='error-show']/div[@class='cb41error']`) to have text",
+    "statusTrace" : "Error: Expect $(`//span[@class='error-show']/div[@class='cb41error']`) to have text\n                \n                Expected: \"Invalid username and/or password.gnnb\"\n                Received: \"Invalid username and/or password.\"\n                    at LoginTest.assertInvalidCredentialMsg (C:\\katja\\Uni\\4_Sem\\program_testesana\\prog_test\\test_code\\features\\testobjects\\/loginTest.js:14:70)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (C:\\katja\\Uni\\4_Sem\\program_testesana\\prog_test\\test_code\\features\\step-definitions\\/loginSteps.js:13:5)",
+    "steps" : [ {
+      "name" : "Given User has opened Oracle Profile page",
+      "time" : {
+        "start" : 1645965096877,
+        "stop" : 1645965101187,
+        "duration" : 4310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When User inputs dhsgjsdh@gmail.com as the email",
+      "time" : {
+        "start" : 1645965101187,
+        "stop" : 1645965101404,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And User inputs Password123 as the password",
+      "time" : {
+        "start" : 1645965101404,
+        "stop" : 1645965101564,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And User presses the sign in button",
+      "time" : {
+        "start" : 1645965101564,
+        "stop" : 1645965102175,
+        "duration" : 611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then User sees invalid credentials message",
+      "time" : {
+        "start" : 1645965102176,
+        "stop" : 1645965113355,
+        "duration" : 11179
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Expect $(`//span[@class='error-show']/div[@class='cb41error']`) to have text\n                \n                Expected: \"Invalid username and/or password.gnnb\"\n                Received: \"Invalid username and/or password.\"\n                    at LoginTest.assertInvalidCredentialMsg (C:\\katja\\Uni\\4_Sem\\program_testesana\\prog_test\\test_code\\features\\testobjects\\/loginTest.js:14:70)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (C:\\katja\\Uni\\4_Sem\\program_testesana\\prog_test\\test_code\\features\\step-definitions\\/loginSteps.js:13:5)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "testClass",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Invalid login with user"
+  }, {
+    "name" : "package",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9fc8d7e5a2cf445a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645965040357,
+        "stop" : 1645965046631,
+        "duration" : 6274
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cc560cea1a966463.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

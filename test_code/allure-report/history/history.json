@@ -1,0 +1,22 @@
+{
+  "5541e9c8bde4d9b087dd9b454c428cb7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc560cea1a966463",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//span[@class='error-show']/div[@class='cb41error']`) to have text",
+      "time" : {
+        "start" : 1645965096872,
+        "stop" : 1645965113356,
+        "duration" : 16484
+      }
+    } ]
+  }
+}
